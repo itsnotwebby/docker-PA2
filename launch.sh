@@ -12,10 +12,10 @@ else
 	exit 99
 fi
 
-if ! [[ -f 'Server-Files-0.3.2.zip' ]]; then
+if ! [[ -f 'Project Architect 2 4.2 Server Files.zip' ]]; then
 	rm -fr config defaultconfigs kubejs mods packmenu Simple.zip forge*
-	curl -Lo 'Server-Files-0.3.2.zip' 'https://edge.forgecdn.net/files/5682/556/Server-Files-0.3.2.zip' || exit 9
-	unzip -u -o 'Server-Files-0.3.2.zip' -d /data
+	curl -Lo 'Project Architect 2 4.2 Server Files.zip' 'https://edge.forgecdn.net/files/5734/568/Project%20Architect%202%204.2%20Server%20Files.zip' || exit 9
+	unzip -u -o 'Project Architect 2 4.2 Server Files.zip' -d /data
 	DIR_TEST=$(find . -type d -maxdepth 1 | tail -1 | sed 's/^.\{2\}//g')
 	if [[ $(find . -type d -maxdepth 1 | wc -l) -gt 1 ]]; then
 		cd "${DIR_TEST}"
