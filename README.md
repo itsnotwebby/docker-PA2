@@ -1,4 +1,4 @@
-# [All the Mods 9-0.3.2](https://www.curseforge.com/minecraft/modpacks/all-the-mods-9) on Curseforge
+# [Project Architect 2](https://www.curseforge.com/minecraft/modpacks/project-architect-2) on Curseforge
 
 <!-- toc -->
 
